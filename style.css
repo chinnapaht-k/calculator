@@ -1,0 +1,41 @@
+.calulator {
+    display:flex;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+}
+
+.row {
+    width: 500px;
+    height : 70px;
+    display: flex;
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    margin-top : 200px ;
+}
+
+.display {
+    width: 500px;
+    height : auto;
+    background-color: antiquewhite;
+    border: 3px solid gray;
+    border-radius: 10px;
+    display:flex;
+    justify-content: end;
+    align-items: end ;
+    gap:10px;
+}
+
+button {
+    width: 200px;
+    height: auto;
+    flex:auto;
+}
+
+
+.display {
+    flex:auto;
+}
